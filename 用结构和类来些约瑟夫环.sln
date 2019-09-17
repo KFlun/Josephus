@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "用结构来写约瑟夫环", "用结构和类来些约瑟夫环\用结构和类来些约瑟夫环.vcxproj", "{1F389583-CBA4-432C-A05A-33090D6A5E7A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "用类来写约瑟夫环", "用类来写约瑟夫环\用类来写约瑟夫环.vcxproj", "{A8660C17-74F3-497E-942D-D0144AD588AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F389583-CBA4-432C-A05A-33090D6A5E7A}.Debug|x64.ActiveCfg = Debug|x64
+		{1F389583-CBA4-432C-A05A-33090D6A5E7A}.Debug|x64.Build.0 = Debug|x64
+		{1F389583-CBA4-432C-A05A-33090D6A5E7A}.Debug|x86.ActiveCfg = Debug|Win32
+		{1F389583-CBA4-432C-A05A-33090D6A5E7A}.Debug|x86.Build.0 = Debug|Win32
+		{1F389583-CBA4-432C-A05A-33090D6A5E7A}.Release|x64.ActiveCfg = Release|x64
+		{1F389583-CBA4-432C-A05A-33090D6A5E7A}.Release|x64.Build.0 = Release|x64
+		{1F389583-CBA4-432C-A05A-33090D6A5E7A}.Release|x86.ActiveCfg = Release|Win32
+		{1F389583-CBA4-432C-A05A-33090D6A5E7A}.Release|x86.Build.0 = Release|Win32
+		{A8660C17-74F3-497E-942D-D0144AD588AB}.Debug|x64.ActiveCfg = Debug|x64
+		{A8660C17-74F3-497E-942D-D0144AD588AB}.Debug|x64.Build.0 = Debug|x64
+		{A8660C17-74F3-497E-942D-D0144AD588AB}.Debug|x86.ActiveCfg = Debug|Win32
+		{A8660C17-74F3-497E-942D-D0144AD588AB}.Debug|x86.Build.0 = Debug|Win32
+		{A8660C17-74F3-497E-942D-D0144AD588AB}.Release|x64.ActiveCfg = Release|x64
+		{A8660C17-74F3-497E-942D-D0144AD588AB}.Release|x64.Build.0 = Release|x64
+		{A8660C17-74F3-497E-942D-D0144AD588AB}.Release|x86.ActiveCfg = Release|Win32
+		{A8660C17-74F3-497E-942D-D0144AD588AB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5436A6CA-7C72-4A9B-8E2A-A90EB6EC70F3}
+	EndGlobalSection
+EndGlobal
