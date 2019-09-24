@@ -1,5 +1,4 @@
 #pragma once
-#include"chain.h"
 #include"head.h"
 class Monkey_king
 {

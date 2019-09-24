@@ -13,12 +13,15 @@ void Chain::initialise_Monkey(int n, Monkey kingdom[])
 
 void Chain::count(int N)
 {
-	for (int i = 1; i < N; i++)
+	while (pCurrent != pCurrent->next)
 	{
-		guard = pCurrent;
+		for (int i = 1; i < N; i++)
+		{
+			guard = pCurrent;
+			pCurrent = guard->next;
+		}
+		guard->next = pCurrent->next;
 		pCurrent = guard->next;
 	}
-	guard->next = pCurrent->next;
-	pCurrent = guard->next;
 	cout << "ºïÍõµÄÐòºÅÎª£º" << pCurrent->number << endl;
 }
