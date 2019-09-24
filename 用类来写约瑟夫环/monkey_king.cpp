@@ -14,5 +14,5 @@ void Monkey_king::creat()
 
 void Monkey_king::king()
 {
-	chain.count(N);
+	chain.count(N,n);
 }
